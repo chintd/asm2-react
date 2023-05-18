@@ -1,0 +1,20 @@
+.backdrop{
+    height: 200px;
+    width: 150px;
+    padding:5px;
+}
+.backdrop:hover{
+    height: 200px;
+    width: 170px;
+    padding: 0;
+}
+.img{
+    height: 130px;
+    width: 200px;
+    padding: 5px;
+}
+.img:hover{
+    height:130px;
+    width:220px;
+    padding: 0;
+}

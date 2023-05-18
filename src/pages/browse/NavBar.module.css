@@ -1,0 +1,42 @@
+.navbar{   
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    top:0;
+    background-color: transparent;
+}
+.logo{
+    text-align: left;
+    padding: 0.5rem;
+}
+.logo h2{
+    color: red;
+    cursor: pointer;
+    margin: 8px;
+}
+.search{
+    text-align: right;
+    padding: 1rem;
+}
+.search button{
+    color: grey;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: transparent;
+}
+
+.black{
+    background-color: black !important;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    top:0;
+}

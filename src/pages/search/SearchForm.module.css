@@ -1,0 +1,44 @@
+.form{
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form input{
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid rgb(76, 195, 235);
+    display: inline-block;
+}
+.form input:focus{
+    outline: none;
+}
+.icon{
+    width: 30px;
+    background-color: transparent;
+    translate: 350px -40px;
+    display: inline-block;
+}
+.container{
+    width: 100vw;
+    height: 20%;
+    margin-top:0;
+    padding-top: 100px;
+}
+.actions{
+    text-align: right;
+}
+
+.actions .search{
+    background-color: rgb(76, 195, 235);
+    padding: 10px;
+}
+.actions .resetbtn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
